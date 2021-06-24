@@ -164,7 +164,7 @@ def customObservableNonBlocking() {
 customObservableNonBlocking().subscribe { println(it) }
 ```
 
-Here is the same code in Clojure that uses a Future (instead of raw thread) and is implemented more consisely:
+Here is the same code in Clojure that uses a Future (instead of raw thread) and is implemented more concisely:
 
 ```clojure
 (defn customObservableNonBlocking []
